@@ -1,0 +1,49 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Build and temporary files
+build/
+dist/
+*.log
+*.tmp
+*.sqlite3
+nature_alert_camera24.db
+
+# Runtime images and exports
+*.jpg
+*.jpeg
+*.png
+*.webp
+!datasets/**
+
+# ML training output
+runs/
+datasets/runs/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local documentation notes
+docs.md
+
+
