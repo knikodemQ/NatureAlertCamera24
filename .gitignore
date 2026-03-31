@@ -30,8 +30,6 @@ dist/
 nature_alert_camera24.db
 
 # Runtime images and exports
-*.jpg
-*.jpeg
 *.webp
 !datasets/**
 
